@@ -1,0 +1,135 @@
+ /* all common css start   */
+ * {
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     font-family: "Inter", serif;
+ }
+
+ a,
+ a:hover {
+     text-decoration: none;
+     display: inline-block;
+ }
+
+ ul,
+ ol {
+     list-style-type: none;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p {
+     margin: 0;
+     padding: 0;
+     line-height: 0.8;
+ }
+
+ /* all common css end   */
+
+ /* nav bar part start  */
+ .navbar {
+   position: fixed;
+     padding: 15px 0;
+     top: 0;
+     left: 0;
+     width: 100%;
+ }
+
+ .nav-link {
+     color: #ffff;
+     margin: 0 20px;
+     font-size: 18px;
+     font-weight: 400;
+ }
+.nav-link:hover{
+color: #6A4DF4;
+}
+.contactbtn{
+    padding: 15px 42px;
+    border-radius: 10px;
+    background-color: #6A4DF4;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .4s;
+}
+.contactbtn:hover{
+    background-color: #fff;
+    color: #6A4DF4;
+}
+
+ /* nav bar part end */
+
+ #bannerpart{
+    background: url(../css/images/agenc-Banner\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .banneroverly{
+    padding-top: 325px;
+    padding-bottom: 180px;
+    background-color: hsla(0, 0%, 0%, 0.548);
+ }
+ .bannerWritePart{
+    padding-left: 190px;
+    width: 100%;
+ }
+ .bannerWritePart h1{
+    color: #ffff;
+    font-size: 75px;
+    font-weight: 700;
+    
+    padding-right: 20px;
+ }
+.bannerWritePart h2{
+    padding-top: 30px;
+    color: #ffff;
+    font-size: 75px;
+    font-weight: 700;
+    padding-left: 160px;
+}
+.bannerWritePart p{
+    padding-top: 65px;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 361px;
+    width: 100%;
+    padding-left: 140px;
+    line-height: 25px;
+
+}
+.bannerWritePart h4{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    padding-left: 355px;
+    padding-top: 7px;
+    
+}
+.bannerbtn{
+    padding-left: 323px;
+    padding-top: 50px;
+}
+.bannerbtn a{
+    padding: 15px 42px;
+    background-color: #6A4DF4;
+    border-radius: 10px;
+    color: #ffff;
+    transition: .4s;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bannerbtn a:hover{
+background-color: #fff;
+color: #6A4DF4;
+}
+ 
+ /* banner part end */
